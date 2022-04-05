@@ -1,0 +1,98 @@
+[
+    {
+        "id":1,
+        "categoria":"deditos",
+        "nombre":"DEDITOS CON BOCADILLO Y QUESO x 20 und",
+        "valor":9000
+    },
+    {
+        "id":2,
+        "categoria":"deditos",
+        "nombre":" DEDITOS CON SOLO BOCADILLO x 20 und",
+        "valor":8000
+    },
+    {
+        "id":3,
+        "categoria":"deditos",
+        "nombre":"DEDITOS CON SALCHICHA x 20 und",
+        "valor":8000
+    },
+    {
+        "id":4,
+        "categoria":"deditos",
+        "nombre":"DEDITOS CON QUESO X 20 und",
+        "valor":8000
+    },
+    {
+        "id":5,
+        "categoria":"empanadas",
+        "nombre":"EMPANADAS DE TRIGO CON ESPINACA Y QUESO  x 12 und",
+        "valor":8000
+    },
+    {
+        "id":6,
+        "categoria":"empanadas",
+        "nombre":"EMAPANADA DE TRIGO HAWAHIANA x 12 und",
+        "valor":8000 
+    },
+    {
+        "id":7,
+        "categoria":"empanadas",
+        "nombre":"EMPANADAS DE TRIGO CON JAMON Y QUESOx 12 und",
+        "valor":8000
+    },
+    {
+        "id":8,
+        "categoria":"empanadas",
+        "nombre":"EMPANADA DE TRIGO CON POLLO X 12 und",
+        "valor":8000
+    },
+    {
+        "id":9,
+        "categoria":"empanadas",
+        "nombre":"EMPANADAS DE TRIGO CON CARNE x 12 und",
+        "valor":8000
+    },
+    {
+        "id":10,
+        "categoria":"empanadas",
+        "nombre":"EMPANADAS DE HARINA TRIGO CON QUESO x 12 und",
+        "valor":8000
+    },
+    {
+        "id": 11,
+        "categoria": "carimanola",
+        "nombre": "CARIMAÑOLA CON CARNE x 10 und",
+        "valor": 10000
+       },
+       {
+        "id": 12,
+        "categoria": "carimanola",
+        "nombre": "CARIMAÑOLA CON POLLO x 10 un",
+        "valor": 10000
+       },
+       {
+        "id": 13,
+        "categoria": "carimanola",
+        "nombre": "CARIMAÑOLA CON QUESO x 10 und",
+        "valor": 10000
+       },
+       {
+        "id": 14,
+        "categoria": "empmaiz",
+        "nombre": "EMPANADA DE MAIZ CON CARNE x 10",
+        "valor": 8000
+       },
+       {
+        "id": 15,
+        "categoria": "empmaiz",
+        "nombre": "EMPANADA DE MAIZ CON POLLO x 10",
+        "valor": 8000
+       },
+       {
+        "id": 16,
+        "categoria": "empmaiz",
+        "nombre": "EMPANADA DE MAIZ CON QUESO x 10 und ",
+        "valor": 8000
+       }
+]

@@ -1,12 +1,14 @@
 import React from 'react'
-
+import {Link} from 'react-router-dom'
+import empanada from '../images/empanada.png'
 const Navbar = props => {
   return (
     <nav>
+      <img src={empanada} alt='empanada' />
         <ul>
-            <li><a href='#'>Inicio</a></li>
-            <li><a href='#'>Productos</a></li>
-            <li><a href='#'>Contactos</a></li>
+            <li><Link to='#'>Inicio</Link></li>
+            <li><Link to='#'>Productos</Link></li>
+            <li><Link to='#'>Contactos</Link></li>
         </ul>
     </nav>
   )

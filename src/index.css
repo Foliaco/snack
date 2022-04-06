@@ -1,9 +1,9 @@
 :root{
   --white1:rgba(250,250,250);
   --white2:rgb(230,230,230);
-  --primary:rgb(0, 143, 55);
-  --secondary:#FF6B00;
-  --text:rgba(0,0,0,0.8);
+  --primary:#773F82;
+  --secondary:#E99153;
+  --text:rgb(255, 255, 255);
 }
 *{
   margin:0;
@@ -11,6 +11,9 @@
   box-sizing:border-box;
   font-family:'Raleway';
   transition:250ms;
+}
+body{
+  background-color:var(--primary);
 }
 nav{
   width:80%;
@@ -36,7 +39,6 @@ nav ul li{
   position: relative;
   border-radius:30px;
   padding:10px 15px;
-  background-color:var(--white1);
   overflow: hidden;
 }
 nav ul a{
@@ -44,7 +46,7 @@ nav ul a{
   z-index:4;
   text-decoration:none;
   color:var(--text);
-  font-weight:bold;
+  font-weight:300;
 }
 nav ul li::before{
   z-index: 3;
@@ -63,4 +65,37 @@ nav ul li:hover::before{
 }
 nav ul li:hover a{
   color:var(--white1)
+}
+button{
+  position: relative;
+  margin:auto;
+  background:transparent;
+  border:2px solid var(--secondary);
+  padding:10px;
+  border-radius:100px;
+  color:var(--text);
+  overflow:hidden;
+  cursor:pointer;
+}
+button span{
+  position: relative;
+  z-index: 3;
+  font-weight:bold;
+}
+button::before{
+  transition:200ms ease-in;
+  padding:0;
+  position: absolute;
+  content:' ';
+  display:block;
+  width:100%;
+  height:100%;
+  background:var(--secondary);
+  top:100%;
+  border-radius:100px;
+  left:200%;
+}
+button:hover::before{
+  top:0;
+  left:0;
 }

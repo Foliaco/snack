@@ -1,16 +1,52 @@
-.main-header{
-    width:100vw;
+.header-main{
+    width:100%;
     height:96vh;
-    background-color:var(--white2);
-    display:grid;
-    grid-template-columns:repeat(12,1fr);
+    /*background-color: var(--primary);*/
 }
-.main-header h1{
-    text-align:center;
+.header-main h6{
+    display:block;
     margin:20px 10px;
+    margin-left:100px;
     margin-top:40px;
-    color:var(--primary);
+    color:var(--secondary);
     font-weight:bolder;
+    font-size: 14px;
+}
+.grid-cont img{
+    width:200%;
+}
+.left-absolute{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    height:100vh;
+    width:25vw;
+    background:var(--secondary);
+    position: absolute;
+    right:0;
+    top:0;
+}
+.header-main h6 svg{
+    margin-right:10px;
+    font-size:20px;
+}
+.header-main h1{
+    margin-top:50px;
+    color:var(--text);
+    margin-left:40px;
+}
+.header-main h1 span{
+    display:block;
+    font-size:60px;
+}
+#img-empanadas{
+    position: absolute;
+    right:3.5vw;
+    animation-name:images;
+    animation-duration: 0.9s;
+    animation-delay: 5;
+    animation-iteration-count: infinite;
 }
 .main-header .left{
     grid-column-start:1;
@@ -19,4 +55,18 @@
 .main-header .right{
     grid-column-start:9;
     grid-column-end:13;
+}
+
+@keyframes images {
+    0%{transform:scale(1)}
+    10%{transform:scale(0.99)}
+    20%{transform:scale(0.98)}
+    30%{transform:scale(0.97)}
+    40%{transform:scale(0.96)}
+    50%{transform:scale(0.95)}
+    60%{transform:scale(0.96)}
+    70%{transform:scale(0.97)}
+    80%{transform:scale(0.98);}
+    90%{transform:scale(0.99)}
+    100%{transform:scale(1)}
 }

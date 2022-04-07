@@ -1,12 +1,20 @@
 .card{
     padding:10px;
-    background-color:var(--primary);
+    /* background-color:var(--primary); */
+    border:0.7px solid var(--border1);
     border-radius:4px;
     color:var(--text);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
     cursor:pointer;
+    transition:100ms;
 }
 .card:hover{
-    background-color:var(--secondary);
+    /* background-color:var(--secondary); */
+    color:var(--border1);
+    border:0.7px solid var(--border1);
 }
 .card-img{
     max-width:200px;

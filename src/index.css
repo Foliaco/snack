@@ -1,12 +1,21 @@
 :root{
-  --green:#68D056;
   --white1:rgba(250,250,250);
   --white2:rgb(230,230,230);
   --black:rgb(0,0,0,0.8);
-  --primary:#773F82;
+  /* --primary:#773F82;
   --secondary:rgb(232, 146, 84);
+  --green:#68D056;
   --text:rgb(255, 255, 255);
-  --pink:rgb(242,85,146);
+  --pink:rgb(242,85,146); 
+  
+  --primary:#4652ff;
+  */
+  --border1:#F3C555;
+  --primary:var(--green);
+  --secondary:#F3C555;
+  --green:#3d3d3d;
+  --text:rgba(255, 255, 255, 1);
+  --pink:rgb(255, 80, 147);
 }
 *{
   margin:0;
@@ -14,6 +23,9 @@
   box-sizing:border-box;
   font-family:'Raleway';
   transition:250ms;
+}
+html{
+  scroll-behavior: smooth;
 }
 body{
   background-color:var(--primary);
@@ -117,4 +129,57 @@ button:hover::before{
 }
 .nav-menu .what svg{
   font-size:40px;
+}
+
+select{
+  appearance: none;
+  display: inline-block;
+	cursor: pointer;
+  padding: 5px 10px;
+  height: 42px;
+	background: var(--secondary);
+	color: var(--black);
+	font-size: 1em;
+	font-family: 
+	'Quicksand', sans-serif;
+	border:2px solid var(--border1);
+    border-radius:3px;
+    position: relative;
+    transition: all 0.25s ease;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+.content-select select:hover{
+  color:var(--text);
+	background: var(--primary);
+}
+ 
+/* 
+Creamos la fecha que aparece a la izquierda del select.
+Realmente este elemento es un cuadrado que sólo tienen
+dos bordes con color y que giramos con transform: rotate(-45deg);
+*/
+.content-select i{
+	position: absolute;
+	right: 20px;
+	top: calc(50% - 13px);
+	width: 16px;
+	height: 16px;
+	display: block;
+	border-left:4px solid var(--primary);
+	border-bottom:4px solid var(--primary);
+	transform: rotate(-45deg); /* Giramos el cuadrado */
+	transition: all 0.25s ease;
+}
+ 
+.content-select:hover i{
+	margin-top: 3px;
+}
+.cat{
+  width:20vw;
+  margin-left:30px;
+  padding:10px;
+  background-color:var(--secondary);
+  border-radius:5px;
+  font-weight:bold;
 }

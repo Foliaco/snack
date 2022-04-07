@@ -8,7 +8,7 @@ const Navbar = props => {
       <img src={empanada} alt='empanada' />
         <ul>
             <li><Link to='#'>Inicio</Link></li>
-            <li><Link to='#'>Productos</Link></li>
+            <li><a href='#gridproductos'>Productos</a></li>
             <li><Link to='#'>Contactos</Link></li>
         </ul>
         <div className='what'>

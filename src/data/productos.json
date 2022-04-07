@@ -1,98 +1,114 @@
 [
     {
-        "id":1,
+        "idClass":1,
         "categoria":"deditos",
         "nombre":"DEDITOS CON BOCADILLO Y QUESO x 20 und",
-        "valor":9000
+        "valor":9000,
+        "image":"/images/deditos_queso.png"
     },
     {
-        "id":2,
+        "idClass":2,
         "categoria":"deditos",
         "nombre":" DEDITOS CON SOLO BOCADILLO x 20 und",
-        "valor":8000
+        "valor":8000,
+        "image":"/images/deditos_queso.png"
     },
     {
-        "id":3,
+        "idClass":3,
         "categoria":"deditos",
         "nombre":"DEDITOS CON SALCHICHA x 20 und",
-        "valor":8000
+        "valor":8000,
+        "image":"/images/deditos_queso.png"
     },
     {
-        "id":4,
+        "idClass":4,
         "categoria":"deditos",
         "nombre":"DEDITOS CON QUESO X 20 und",
-        "valor":8000
+        "valor":8000,
+        "image":"/images/deditos_queso.png"
     },
     {
-        "id":5,
+        "idClass":5,
         "categoria":"empanadas",
         "nombre":"EMPANADAS DE TRIGO CON ESPINACA Y QUESO  x 12 und",
-        "valor":8000
+        "valor":8000,
+        "image":"/images/empanada.png"
     },
     {
-        "id":6,
+        "idClass":6,
         "categoria":"empanadas",
         "nombre":"EMAPANADA DE TRIGO HAWAHIANA x 12 und",
-        "valor":8000 
+        "valor":8000,
+        "image":"/images/empanada.png" 
     },
     {
-        "id":7,
+        "idClass":7,
         "categoria":"empanadas",
         "nombre":"EMPANADAS DE TRIGO CON JAMON Y QUESOx 12 und",
-        "valor":8000
+        "valor":8000,
+        "image":"/images/empanada.png"
     },
     {
-        "id":8,
+        "idClass":8,
         "categoria":"empanadas",
         "nombre":"EMPANADA DE TRIGO CON POLLO X 12 und",
-        "valor":8000
+        "valor":8000,
+        "image":"/images/empanada.png"
     },
     {
-        "id":9,
+        "idClass":9,
         "categoria":"empanadas",
         "nombre":"EMPANADAS DE TRIGO CON CARNE x 12 und",
-        "valor":8000
+        "valor":8000,
+        "image":"/images/empanada.png"
     },
     {
-        "id":10,
+        "idClass":10,
         "categoria":"empanadas",
         "nombre":"EMPANADAS DE HARINA TRIGO CON QUESO x 12 und",
-        "valor":8000
+        "valor":8000,
+        "image":"/images/empanada.png"
     },
     {
-        "id": 11,
-        "categoria": "carimanola",
+        "idClass": 11,
+        "categoria": "carimañola",
         "nombre": "CARIMAÑOLA CON CARNE x 10 und",
-        "valor": 10000
+        "valor": 10000,
+        "image":"/images/carimañolas.png"
        },
        {
-        "id": 12,
-        "categoria": "carimanola",
+        "idClass": 12,
+        "categoria": "carimañola",
         "nombre": "CARIMAÑOLA CON POLLO x 10 un",
-        "valor": 10000
+        "valor": 10000,
+        "image":"/images/carimañolas.png"
        },
        {
-        "id": 13,
-        "categoria": "carimanola",
+        "idClass": 13,
+        "categoria": "carimañola",
         "nombre": "CARIMAÑOLA CON QUESO x 10 und",
-        "valor": 10000
+        "valor": 10000,
+        "image":"/images/carimañolas.png"
        },
        {
-        "id": 14,
-        "categoria": "empmaiz",
+        "idClass": 14,
+        "categoria": "empanadas de maiz",
         "nombre": "EMPANADA DE MAIZ CON CARNE x 10",
-        "valor": 8000
+        "valor": 8000,
+        "image":"/images/empanadas-de-maiz.png"
        },
        {
-        "id": 15,
-        "categoria": "empmaiz",
+        "idClass": 15,
+        "categoria": "empanadas de maiz",
         "nombre": "EMPANADA DE MAIZ CON POLLO x 10",
-        "valor": 8000
+        "valor": 8000,
+        "image":"/images/empanadas-de-maiz.png"
        },
        {
-        "id": 16,
-        "categoria": "empmaiz",
+        "idClass": 16,
+        "categoria": "empanadas de maiz",
         "nombre": "EMPANADA DE MAIZ CON QUESO x 10 und ",
-        "valor": 8000
+        "valor": 8000,
+        "image":"/images/empanadas-de-maiz.png"
        }
 ]

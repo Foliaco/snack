@@ -1,0 +1,27 @@
+.card{
+    padding:10px;
+    background-color:var(--primary);
+    border-radius:4px;
+    color:var(--text);
+    cursor:pointer;
+}
+.card:hover{
+    background-color:var(--secondary);
+}
+.card-img{
+    max-width:200px;
+    object-fit:cover;
+    border-radius: 4px;
+}
+.card-img img{
+    width:95%;
+    display:block;
+    margin:auto;
+}
+.card-body{
+    padding:20px 5px;
+    text-align:center;
+}
+.card-body p{
+    margin-top:20px;
+}
